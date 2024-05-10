@@ -3,13 +3,14 @@ Grantha - E-Libarary System
 The E-Library Android App is a simple digital library management system designed for Android devices. It allows users to manage books details and  members detials of a library efficiently. The app provides functionalities for Create, Update, Read and Delete  as well as displaying them in a user-friendly interface.
 
 **Features:**
-1. **Member Management** 
-2. **Books Management**
-     Book Details
-     Author Details
-     Publisher Details
-     Branch Details
-     Copy Details
+1. **Member Management**
+2.**Books Management**
+    ( Book Details,
+     Author Details,
+     Publisher Details,
+     Branch Details,
+     Copy Details)
+   
 3.**Lending Management**
    
    
