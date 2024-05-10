@@ -4,6 +4,7 @@ The E-Library Android App is a simple digital library management system designed
 
 **Features:**
 1. **Member Management**
+   
 2.**Books Management**
     ( Book Details,
      Author Details,
