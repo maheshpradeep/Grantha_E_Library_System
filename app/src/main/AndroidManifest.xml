@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Grantha"
+        tools:targetApi="31">
+        <activity
+            android:name=".updateauthor"
+            android:exported="false" />
+        <activity
+            android:name=".addauthor"
+            android:exported="false" />
+        <activity
+            android:name=".author"
+            android:exported="false" />
+        <activity
+            android:name=".updatebrabch"
+            android:exported="false" />
+        <activity
+            android:name=".addbranch"
+            android:exported="false" />
+        <activity
+            android:name=".CusAdapBranch"
+            android:exported="false" />
+        <activity
+            android:name=".branchs"
+            android:exported="false" />
+        <activity
+            android:name=".updatepublishers"
+            android:exported="false" />
+        <activity
+            android:name=".addpublishers"
+            android:exported="false" />
+        <activity
+            android:name=".publishers"
+            android:exported="false" />
+        <activity
+            android:name=".updatemembers"
+            android:exported="false" />
+        <activity
+            android:name=".addmembers"
+            android:exported="false" />
+        <activity
+            android:name=".members"
+            android:exported="false" />
+        <activity
+            android:name=".addbooks"
+            android:exported="false" />
+        <activity
+            android:name=".updatebooks"
+            android:exported="false" />
+        <activity
+            android:name=".books"
+            android:exported="false" />
+        <activity
+            android:name=".library"
+            android:exported="false" />
+        <activity
+            android:name=".signup"
+            android:exported="false" />
+        <activity
+            android:name=".home"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

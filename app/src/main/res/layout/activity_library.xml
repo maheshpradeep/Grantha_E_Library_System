@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/libraryhome"
+    tools:context=".library">
+
+    <ScrollView
+        android:layout_width="368dp"
+        android:layout_height="642dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.372"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.393"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:id="@+id/formLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ExtraText,MissingConstraints">
+
+
+            <Button
+                android:id="@+id/books"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="#96202C59"
+                android:text="Books Details"
+                android:textSize="30sp"
+                app:cornerRadius="30dp"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                android:id="@+id/publisher"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="#6A950101"
+                android:text="Publisher Details"
+                android:textSize="30sp"
+                app:cornerRadius="30dp"
+                android:layout_marginTop="20dp"/>
+
+            <Button
+                android:id="@+id/branch"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="#96202C59"
+                android:text="Branch Details"
+                android:textSize="30sp"
+                app:cornerRadius="30dp"
+                android:layout_marginTop="20dp"/>
+
+            <Button
+                android:id="@+id/author"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#6A950101"
+                android:text="Author Details"
+                android:textSize="30sp"
+                app:cornerRadius="30dp"
+                android:layout_marginTop="20dp"/>
+
+            <Button
+                android:id="@+id/copy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#96202C59"
+                android:text="Book Copy Details"
+                android:textSize="30sp"
+                app:cornerRadius="30dp"
+                android:layout_marginTop="20dp"/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
